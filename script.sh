@@ -91,4 +91,4 @@ echo "See https://greenbone.github.io/docs/latest/$RELEASE/container/workflows.h
 echo
 echo "Press Enter to open the Greenbone Security Assistant web interface in the web browser."
 read
-xdg-open "http://127.0.0.1:9392" 2>/dev/null >/dev/null &
+xdg-open "http://127.0.0.1:9392" 2> /dev/null > /dev/null &
